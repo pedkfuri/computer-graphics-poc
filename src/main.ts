@@ -16,4 +16,4 @@ canvas.desenhaGrid();
 
 reta1.todosPontos().forEach(ponto => canvas.colorePixelXY(ponto.x, ponto.y));
 reta2.todosPontos().forEach(ponto => canvas.colorePixelXY(ponto.x, ponto.y));
-reta2.todosPontos().forEach(ponto => canvas.colorePixelXY(ponto.x, ponto.y));
+reta3.todosPontos().forEach(ponto => canvas.colorePixelXY(ponto.x, ponto.y));
