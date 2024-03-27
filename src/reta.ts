@@ -9,15 +9,15 @@ class Reta {
     this.ponto2 = ponto2;
   }
 
-  imprime(indice: number) {
+  public imprime(indice: number) {
     console.log(`Reta ${indice}: (${this.ponto1.x}, ${this.ponto1.y}) -> (${this.ponto2.x}, ${this.ponto2.y})`);
   }
 
-  todosPontos() {
+  public todosPontos() {
     return this.bresenhamReta(this.ponto1.x, this.ponto1.y, this.ponto2.x, this.ponto2.y);
   }
 
-  bresenhamReta(x1: number, y1: number, x2: number, y2: number) {
+  private bresenhamReta(x1: number, y1: number, x2: number, y2: number) {
     let listaPontos = [];
 
     const dx = x2 - x1;
