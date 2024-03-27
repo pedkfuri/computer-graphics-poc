@@ -2,6 +2,6 @@
   "compilerOptions": {
       "module": "commonjs",
       "lib": ["es5", "es6", "dom"],
-      "rootDir": "./"
+      "rootDir": "./src/"
   }
 }

@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rm -rf build",
     "start": "nodemon main.ts",
-    "build:dev": "npm run clean && npx webpack && cp index.html index.css build"
+    "build:dev": "npm run clean && npx webpack && cp ./src/index.html ./src/index.css build"
   },
   "author": "pedkfuri",
   "license": "ISC",
