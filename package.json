@@ -1,0 +1,22 @@
+{
+  "name": "draft",
+  "version": "1.0.0",
+  "description": "draft projects",
+  "main": "main.js",
+  "scripts": {
+    "clean": "rm -rf build",
+    "start": "nodemon main.ts",
+    "build:dev": "npm run clean && npx webpack && cp index.html index.css build"
+  },
+  "author": "pedkfuri",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "typescript": "^5.4.3"
+  }
+}
