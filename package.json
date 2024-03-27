@@ -2,7 +2,7 @@
   "name": "draft",
   "version": "1.0.0",
   "description": "draft projects",
-  "main": "main.js",
+  "main": "./dist/main.js",
   "scripts": {
     "clean": "rm -rf build",
     "start": "npm run build:dev && cd ./build && live-server",
